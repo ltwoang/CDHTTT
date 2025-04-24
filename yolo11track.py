@@ -1,5 +1,5 @@
 import cv2
-from tracker1 import ObjectCounter  # Make sure this points to the correct module where ObjectCounter is defined
+from tracker import ObjectCounter  # Make sure this points to the correct module where ObjectCounter is defined
 
 # Define the mouse callback function
 def RGB(event, x, y, flags, param):
