@@ -10,7 +10,7 @@ from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Set up Google API Key
-GOOGLE_API_KEY = "AIzaSyDQBx2pk1WdYB43niW188j_q70ALa7_AFI"
+GOOGLE_API_KEY = ""
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY  
 
 class ObjectCounter(BaseSolution):
